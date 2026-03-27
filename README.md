@@ -1,3 +1,3 @@
 
-![Alt text](Game startup.png)
+![project screeshot](Game startup.png)
 
