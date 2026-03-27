@@ -1,2 +1,2 @@
 
-![project screeshot](Gam%20startup.png)
+![project screeshot](<Game startup.png>)
