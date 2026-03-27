@@ -5,14 +5,14 @@ Used Libraries:
 	Pygame Zero → main framework for the game 
 	
 	pygame.Rect → for collision detection
-![project screeshot](<Game startup.PNG>)
+![project screeshot](<Game_images/Game startup.PNG>)
 The game features a main menu system together with animated player and enemy sprites while background music and sound effects create 
 sound effects for both winning and losing outcomes. 
 
 The project uses Pygame Zero as its primary development framework while all code executes through Python programming language.
 The code also uses the Rect class from Pygame for collision handling. 
 The project functions properly without needing any additional external libraries. 
-
+![project screeshot](<Game_images/Game_inside.PNG>)
 The game requires Python 3.10 to function correctly. The project requires Python 3.10 because I tested it with other versions and it had errors with that. 
 so with 3.10 version and I use the command "py -3.10 -m pgzero Main.py" to ensure the correct Python version runs my project.
 
@@ -23,10 +23,11 @@ The asset filenames must exactly match the names which the code uses to refer to
 The player begins to play the game after the main menu appears on the screen. The menu provides buttons which players can click to begin the game, 
 toggle audio settings, and leave the game. The player uses arrow keys to navigate through the game world while using space bar to perform jumps. 
 The player must gather 5 coins to achieve the target score while keeping away from enemies. 
-
+![project screeshot](<Game_images/playing.PNG>)
 The game presents a winning screen to the player after they have collected 5 coins to win the game. 
+![project screeshot](<Game_images/winning.PNG>)
 The game displays the game over screen when the player fails to maintain it's lives.
-
+![project screeshot](<Game_images/losing.PNG>)
 The project follows an object-oriented design approach. 
 The project contains distinct classes which handle animated sprites and player character and enemy character and coin object animations. 
 The classes contain movement and animation control systems which enable developers to maintain organized and understandable programming code. 
